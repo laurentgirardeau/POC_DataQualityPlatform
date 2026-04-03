@@ -1,0 +1,9 @@
+# ✅ APRÈS
+name: app_environment
+channels:
+  - snowflake
+dependencies:
+  - python=3.10.*        # ← version stable et bien supportée dans SiS
+  - streamlit            # ← version résolue par Snowflake
+  - plotly               # ← idem
+  - pandas               # ← idem
